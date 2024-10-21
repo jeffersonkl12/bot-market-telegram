@@ -1,0 +1,17 @@
+{
+  "name": "bot-market-telegram",
+  "version": "1.0.0",
+  "main": "index.ts",
+  "type": "module",
+  "scripts": {
+    "dev:node": "NODE_ENV=development dotenvx run -f .env.development.local -- node --loader ts-node/esm ./src/index.ts"
+  },
+  "devDependencies": {
+    "@types/node": "^22.7.7",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.6.3"
+  },
+  "dependencies": {
+    "@dotenvx/dotenvx": "^1.20.0"
+  }
+}
